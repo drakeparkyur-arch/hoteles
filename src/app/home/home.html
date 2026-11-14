@@ -1,0 +1,111 @@
+<!-- Carrusel de Bootstrap (Components > Carousel > With captions + indicators) -->
+<div id="carruselHome" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Imagen 1"></button>
+    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+    <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="3" aria-label="Imagen 4"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slide1.png" class="d-block w-100" alt="Hotel">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Descansa en el corazón de Lima</h2>
+        <p>Cerca de lo mejor de la ciudad.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide2.png" class="d-block w-100" alt="Habitación">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Habitaciones cómodas</h2>
+        <p>Camas amplias y baño privado.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide3.png" class="d-block w-100" alt="Desayuno">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Desayuno incluido</h2>
+        <p>Empieza el día con un buen café.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/slide4.png" class="d-block w-100" alt="Vista">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Vistas a la ciudad</h2>
+        <p>Amaneceres desde tu habitación.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carruselHome" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carruselHome" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+
+<!-- Bienvenida -->
+<div class="container text-center my-5">
+  <h1 class="text-primary">Bienvenido al Hotel Mirador</h1>
+  <p class="lead">Un hotel cómodo y tranquilo para viajeros, familias y trabajo.</p>
+  <a routerLink="/product" class="btn btn-primary btn-lg me-2">Ver habitaciones</a>
+  <a routerLink="/contact" class="btn btn-outline-primary btn-lg">Reservar</a>
+</div>
+
+<!-- Cifras -->
+<div class="bg-light py-4">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <p class="display-5 text-primary mb-0">30</p>
+        <p>habitaciones</p>
+      </div>
+      <div class="col-md-4">
+        <p class="display-5 text-primary mb-0">9+</p>
+        <p>años de servicio</p>
+      </div>
+      <div class="col-md-4">
+        <p class="display-5 text-primary mb-0">24 h</p>
+        <p>recepción</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tarjetas (Components > Card) -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">¿Por qué hospedarte aquí?</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100 text-center shadow-sm">
+        <div class="card-body">
+          <p class="display-4">📍</p>
+          <h5 class="card-title">Ubicación céntrica</h5>
+          <p class="card-text">A pocos minutos de restaurantes y atractivos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 text-center shadow-sm">
+        <div class="card-body">
+          <p class="display-4">🛎️</p>
+          <h5 class="card-title">Atención 24 horas</h5>
+          <p class="card-text">Recepción siempre disponible.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 text-center shadow-sm">
+        <div class="card-body">
+          <p class="display-4">🍳</p>
+          <h5 class="card-title">Desayuno incluido</h5>
+          <p class="card-text">Buffet sencillo todas las mañanas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
